@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Косметики</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Інтернет-магазин косметики з великим вибором продукції для догляду за шкірою, макіяжу та іншого.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Магазин Косметики</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#products">Продукти</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#blog">Блог</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Ласкаво просимо до нашого магазину косметики</h2>
+                <p>Відкрийте для себе найкращі продукти для догляду за шкірою та макіяжу.</p>
+                <a href="#products" class="btn">Дізнатись більше</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Про нас</h2>
+                <p>Ми - команда професіоналів, яка займається продажем високоякісної косметики. Наш магазин пропонує широкий вибір продуктів для догляду за шкірою, макіяжу та багато іншого.</p>
+                <img src="about.jpg" alt="Про нас">
+            </div>
+        </section>
+        
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Наші продукти</h2>
+                <div class="product">
+                    <img src="product1.jpg" alt="Продукт 1">
+                    <h3>Назва продукту 1</h3>
+                    <p>Короткий опис продукту 1.</p>
+                    <p class="price">Ціна: 500 грн</p>
+                    <a href="#" class="btn">Купити</a>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Продукт 2">
+                    <h3>Назва продукту 2</h3>
+                    <p>Короткий опис продукту 2.</p>
+                    <p class="price">Ціна: 400 грн</p>
+                    <a href="#" class="btn">Купити</a>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Продукт 3">
+                    <h3>Назва продукту 3</h3>
+                    <p>Короткий опис продукту 3.</p>
+                    <p class="price">Ціна: 300 грн</p>
+                    <a href="#" class="btn">Купити</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>Відгуки наших клієнтів</h2>
+                <div class="review">
+                    <p>«Це найкращий магазин косметики! Продукція високої якості і обслуговування на висоті!»</p>
+                    <p><strong>- Олена Іванова</strong></p>
+                </div>
+                <div class="review">
+                    <p>«Широкий вибір товарів і приємні ціни. Завжди задоволена покупками!»</p>
+                    <p><strong>- Марія Петрова</strong></p>
+                </div>
+                <div class="review">
+                    <p>«Дуже швидка доставка і відмінний сервіс. Рекомендую всім!»</p>
+                    <p><strong>- Катерина Сидорова</strong></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2>Наш блог</h2>
+                <article class="blog-post">
+                    <h3>Як правильно доглядати за шкірою</h3>
+                    <p>Дізнайтеся про основні правила догляду за шкірою, щоб вона завжди виглядала здоровою і сяючою.</p>
+                    <a href="#" class="btn">Читати далі</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Топ-10 продуктів для макіяжу</h3>
+                    <p>Ознайомтеся з нашими рекомендаціями щодо найкращих продуктів для макіяжу цього сезону.</p>
+                    <a href="#" class="btn">Читати далі</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Як вибрати косметику для чутливої шкіри</h3>
+                    <p>Поради щодо вибору косметики для тих, хто має чутливу шкіру.</p>
+                    <a href="#" class="btn">Читати далі</a>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Контакти</h2>
+                <p>Ви можете зв'язатися з нами за допомогою наступних контактів:</p>
+                <address>
+                    Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                    Телефон: +380 12 345 67 89<br>
+                    Адреса: вул. Прикладна, 1, Київ, Україна
+                </address>
+                <form action="send_message.php" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ім'я:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Повідомлення:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Надіслати</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Магазин Косметики. Всі права захищені. | Розроблено <a href="https://www.example.com">Наша Компанія</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+CSS
+Тепер додамо CSS для стилізації цього шаблону. Створимо файл styles.css:
+
+css
+Копировать код
+/* styles.css */
+
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Контейнер */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+/* Секції */
+section {
+    padding: 20px 0;
+}
+
+/* Герой-секція */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Про нас */
+.about img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Продукти */
+.products .product {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.products .product img {
+    width: 100%;
+    height: auto;
+}
+
+.products .product h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.products .product p {
+    color: #666;
+}
+
+.products .product .price {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.products .btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.products .btn:hover {
+    background: #e8491d;
+}
+
+/* Відгуки */
+.reviews .review {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.reviews .review p {
+    color: #666;
+}
+
+.reviews .review strong {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Блог */
+.blog .blog-post {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.blog .blog-post h3 {
+    color: #333;
+}
+
+.blog .btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.blog .btn:hover {
+    background: #e8491d;
+}
+
+/* Контактна форма */
+.contact address {
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-form .btn:hover {
+    background: #e8491d;
+}
+
+/* Навігація */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #e8491d;
+    border-radius: 5px;
+}
+
+/* Футер */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .products .product {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
